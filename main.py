@@ -25,13 +25,13 @@ parser.add_argument('--target_dataset', type=str, default=target_dataset)
 parser.add_argument('--dataset_sample_num', type=int, default=1)
 parser.add_argument('--ent_link_num', type=int, default=ent_link_num)
 
-parser.add_argument('--KG1_rel_triple_path', type=str, default=folder_input+'rel_triples_'+KG1)
-parser.add_argument('--KG2_rel_triple_path', type=str, default=folder_input+'rel_triples_'+KG2)
+parser.add_argument('--KG1_rel_triple_path', type=str, default=folder_input+'rel_triplets_'+KG1)
+parser.add_argument('--KG2_rel_triple_path', type=str, default=folder_input+'rel_triplets_'+KG2)
 # parser.add_argument('--KG1_rel_triple_path', type=str, default=folder_input+'rel_triples/rel_triples_' + KG1 + '_V2')
 # parser.add_argument('--KG2_rel_triple_path', type=str, default=folder_input+'rel_triples/rel_triples_' + KG2 + '_V2')
 
-parser.add_argument('--KG1_attr_triple_path', type=str, default=folder_input+'attr_triples_' + KG1)
-parser.add_argument('--KG2_attr_triple_path', type=str, default=folder_input+'attr_triples_' + KG2)
+parser.add_argument('--KG1_attr_triple_path', type=str, default=folder_input+'attr_triplets_' + KG1)
+parser.add_argument('--KG2_attr_triple_path', type=str, default=folder_input+'attr_triplets_' + KG2)
 parser.add_argument('--ent_link_path', type=str, default=folder_input+'ent_links_' + KG1 + '_' + KG2)
 
 parser.add_argument('--output_folder', type=str, default='../sampled_data_rebuttal/')
