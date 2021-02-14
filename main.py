@@ -8,11 +8,11 @@ from generator.discriminator import *
 
 parser = argparse.ArgumentParser(description='DataGenerator')
 
-KG1, KG2 = 'ru', 'en'
+KG1, KG2 = 'en', 'ru'
 folder_input = '../dataset/'
 
 #
-target_dataset = KG1 + '_' + KG2 + '_1M_V1'
+target_dataset = 'DBP_' + KG1 + '_DBP_' + KG2 + '_15K_V2'
 
 ent_link_num = 15000
 if '100K' in target_dataset:
