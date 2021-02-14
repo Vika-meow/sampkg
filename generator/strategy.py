@@ -59,7 +59,7 @@ DBP_en_DBP_fr_15K_V1 = {
     'delete_limit': 1.3,
     'preserve_num': 200
 }
-DBP_en_DBP_ru_15K_V2 = DBP_en_DBP_fr_15K_V2 = {
+DBP_ru_DBP_en_15K_V2 = DBP_en_DBP_fr_15K_V2 = {
     'max_degree_kg1': 100,
     'max_degree_kg2': 100,
     'delete_ratio': 0.025,

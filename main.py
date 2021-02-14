@@ -8,7 +8,7 @@ from generator.discriminator import *
 
 parser = argparse.ArgumentParser(description='DataGenerator')
 
-KG1, KG2 = 'en', 'ru'
+KG1, KG2 = 'ru', 'en'
 folder_input = '../dataset/'
 
 #
