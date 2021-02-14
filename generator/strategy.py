@@ -1,3 +1,13 @@
+ru_en_1M_V1 = {
+    'max_degree_kg1': 100,
+    'max_degree_kg2': 100,
+    'delete_ratio': 0.01,
+    'delete_random_ratio': 0.002,
+    'delete_degree_ratio': 0.01,
+    'delete_limit': 1.3,
+    'preserve_num': 200
+}
+
 
 DBP_en_DBP_ja_15K_V1 = {
     'max_degree_kg1': 100,
